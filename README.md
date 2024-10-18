@@ -18,7 +18,7 @@ Here's a list of technologies I enjoy working with:
 - Databases: MongoDB, MySQL
 
  📫 How to Reach Me
-- GitHub: github.com/gunabh25
+- GitHub: https://github.com/gunabh25
 - LinkedIn: https://www.linkedin.com/in/gunabh-sharan-a65380257/
 - Phone No.: +91 7061557021
 - Mail: gunabhsharan.25@gmail.com
