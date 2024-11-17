@@ -5,7 +5,7 @@ Welcome to my GitHub profile! I'm a passionate Full Stack Developer, constantly 
 🌱 About Me
 - 💻 I’m currently working on: Student Tracking Platform
 - 🔭 I’m interested in: AI, IoT, Web Development, App Development, Cyber Security
-- 🤓 I’m learning: React Native, Android Studio, Next.JS
+- 🤓 I’m learning: React Native, Android Studio, Next.JS, Three.JS
 - 👯 I’m looking to collaborate on: Student Tracking Platform
 - 📝 I regularly write about: IoT Security
 - 💬 Ask me about: Web & App Development
