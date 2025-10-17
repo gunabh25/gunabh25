@@ -6,7 +6,7 @@
 <h3 align="center">:hammer_and_wrench: Languages and Tools</h3>
 
 <p align="center">
-    <img src="https://skillicons.dev/icons?i=nextjs,mongodb,js,tailwind,mysql,react,nodejs,vscode,arduino,firebase,postman,render,go" alt="Skills and tools"/>
+    <img src="https://skillicons.dev/icons?i=nextjs,mongodb,js,tailwind,mysql,react,nodejs,vscode,arduino,firebase,postman,go,python,c,ai" alt="Skills and tools"/>
 </p>
 
 <p align="center">
