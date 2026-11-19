@@ -1,22 +1,24 @@
-![Banner](https://github.com/gunabh25/gunabh25/blob/main/assets/banner.png)
+![Gunabh Sharan · Forward Deployed & AI Engineer · Backend systems and AI agents](assets/profile-studio.svg)
 
-<h1 align="center">Hi, I'm Gunabh Sharan ! 👋 </h1>
-<img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=gunabh25.gunabh25&left_color=royalblue&right_color=black"  />
+I build backends and AI agents in Python and TypeScript. Two of my projects explore what happens after a request arrives — how agents divide up work and how an order moves through a queue.
+
+[LinkedIn](https://www.linkedin.com/in/gunabh25/) · [Engineering notes](https://hashnode.com/@gunabh) · [Email](mailto:gunabhsharan.25@gmail.com)
+
+## Selected projects
+
+<a href="https://github.com/gunabh25/forge-ai-langgraph"><img src="assets/forge-graph.svg" width="396" alt="ForgeAI — a LangGraph and FastAPI workflow orchestrator that turns requirements into tasks for agents. View the repository."></a> <a href="https://github.com/gunabh25/order-execution-engine"><img src="assets/order-router.svg" width="396" alt="Order Execution Engine — a TypeScript service that routes simulated orders and streams status updates over WebSockets. View the repository."></a>
 
 ## GitHub activity
 
-![Commit totals, longest contribution streak, and a 3D skyline of my past year on GitHub](assets/activity-skyline.svg)
+![Authored commit totals, longest contribution streak, and a 3D skyline of the past year of activity](assets/activity-skyline.svg)
 
-<sub>Commit totals count authored commits indexed by GitHub on default branches in repositories visible to the refresh account. The streak includes consecutive days with any GitHub contribution.</sub>
+<details>
+<summary>How the activity is counted</summary>
 
-<h3 align="center">:hammer_and_wrench: Languages and Tools</h3>
+The commit totals use GitHub’s author search across indexed default branches visible to the refresh account. Each tower represents one day on my contribution calendar. The streak counts consecutive days with any qualifying contribution, including commits, issues, pull requests, and reviews.
 
-<p align="center">
-    <img src="https://skillicons.dev/icons?i=nextjs,mongodb,js,typescript,tailwind,mysql,postgresql,react,nodejs,vscode,firebase,postman,python,ai,fastapi,docker,kubernetes" alt="Skills and tools"/>
-</p>
+</details>
 
-<p align="center">
-    
-![GitHub Snake](https://raw.githubusercontent.com/gunabh25/gunabh25/output/github-snake-dark.svg)
+## Tools I work with
 
-</p>
+![Python, FastAPI, LangGraph, TypeScript, Node.js, Docker, Postgres, and Kubernetes](assets/tool-keyboard.svg)
