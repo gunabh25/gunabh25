@@ -1,18 +1,16 @@
-![Gunabh Sharan, with an ink drawing of a POS Agent receipt printer](assets/receipt-press.svg)
+![Banner](https://github.com/gunabh25/gunabh25/blob/main/assets/banner.png)
 
-I’m a forward deployed and AI engineer in Mumbai. I work on backend systems at OnFinance AI. Two of my own projects live here.
+<h1 align="center">Hi, I'm Gunabh Sharan ! 👋 </h1>
+<img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=gunabh25.gunabh25&left_color=royalblue&right_color=black"  />
 
-**[POS Agent](https://github.com/gunabh25/pos-agent)** connects checkout software to the hardware on the counter. A local Node.js service handles receipt printers, barcode scanners, scales, cash drawers, and payment terminals.
+<h3 align="center">:hammer_and_wrench: Languages and Tools</h3>
 
-**[ForgeAI](https://github.com/gunabh25/forge-ai-langgraph)** takes a software requirement and builds a graph of tasks for AI agents. When a requirement changes, it can rerun the affected tasks. I built it with Python, FastAPI, and LangGraph.
+<p align="center">
+    <img src="https://skillicons.dev/icons?i=nextjs,mongodb,js,typescript,tailwind,mysql,postgresql,react,nodejs,vscode,firebase,postman,python,ai,fastapi,docker,kubernetes" alt="Skills and tools"/>
+</p>
 
-[Engineering notes](https://hashnode.com/@gunabh) · [LinkedIn](https://www.linkedin.com/in/gunabh25/) · [Email me](mailto:gunabhsharan.25@gmail.com)
+<p align="center">
+    
+![GitHub Snake](https://raw.githubusercontent.com/gunabh25/gunabh25/output/github-snake-dark.svg)
 
-![GitHub activity showing all-time authored commits, this year’s commits, and my longest contribution streak](assets/activity-skyline.svg)
-
-<details>
-<summary>About the numbers</summary>
-
-The commit totals come from GitHub’s author search across indexed default branches visible to the refresh account. Each tower represents a day on my contribution calendar. The streak counts consecutive days with a qualifying contribution.
-
-</details>
+</p>
