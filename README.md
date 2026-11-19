@@ -1,12 +1,12 @@
 ![Gunabh Sharan · Forward Deployed & AI Engineer · Backend systems and AI agents](assets/profile-studio.svg)
 
-I build backends and AI agents in Python and TypeScript. Two of my projects explore what happens after a request arrives — how agents divide up work and how an order moves through a queue.
+I build backends and AI agents in Python and TypeScript. ForgeAI turns software requirements into tasks for AI agents. POS Agent connects checkout software to devices like receipt printers and scales.
 
 [LinkedIn](https://www.linkedin.com/in/gunabh25/) · [Engineering notes](https://hashnode.com/@gunabh) · [Email](mailto:gunabhsharan.25@gmail.com)
 
 ## Selected projects
 
-<a href="https://github.com/gunabh25/forge-ai-langgraph"><img src="assets/forge-graph.svg" width="396" alt="ForgeAI — a LangGraph and FastAPI workflow orchestrator that turns requirements into tasks for agents. View the repository."></a> <a href="https://github.com/gunabh25/order-execution-engine"><img src="assets/order-router.svg" width="396" alt="Order Execution Engine — a TypeScript service that routes simulated orders and streams status updates over WebSockets. View the repository."></a>
+<a href="https://github.com/gunabh25/forge-ai-langgraph"><img src="assets/forge-graph.svg" width="396" alt="ForgeAI — a LangGraph and FastAPI workflow orchestrator that turns requirements into tasks for agents. View the repository."></a> <a href="https://github.com/gunabh25/pos-agent"><img src="assets/pos-agent.svg" width="396" alt="POS Agent — a Node.js service for receipt printers, scales, scanners, and payment terminals. View the repository."></a>
 
 ## GitHub activity
 
