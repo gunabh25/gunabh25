@@ -1,0 +1,27 @@
+name: Refresh activity skyline
+on:
+  schedule:
+    - cron: '23 2 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: activity-skyline
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generate the skyline
+        env:
+          GH_TOKEN: ${{ secrets.METRICS_TOKEN }}
+        run: python3 .github/scripts/profile_activity.py
+      - name: Save the refreshed graphic
+        run: |
+          git add assets/activity-skyline.svg
+          if ! git diff --cached --quiet; then
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git commit -m 'Refresh activity skyline'
+            git push
+          fi

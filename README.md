@@ -3,6 +3,12 @@
 <h1 align="center">Hi, I'm Gunabh Sharan ! 👋 </h1>
 <img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=gunabh25.gunabh25&left_color=royalblue&right_color=black"  />
 
+## GitHub activity
+
+![Commit totals, longest contribution streak, and a 3D skyline of my past year on GitHub](assets/activity-skyline.svg)
+
+<sub>Commit totals count authored commits indexed by GitHub on default branches in repositories visible to the refresh account. The streak includes consecutive days with any GitHub contribution.</sub>
+
 <h3 align="center">:hammer_and_wrench: Languages and Tools</h3>
 
 <p align="center">
