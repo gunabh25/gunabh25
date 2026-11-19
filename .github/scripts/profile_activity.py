@@ -87,20 +87,14 @@ def render(total, year_count, days, today):
     svg = [f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 406" role="img" aria-labelledby="title desc">
 <title id="title">GitHub activity skyline</title><desc id="desc">{summary}. {period}. Taller towers represent more daily contributions.</desc>
 <style>
-text{{font-family:system-ui,-apple-system,sans-serif;fill:#f4f6ff}}
-.label{{fill:#b8c3df;font-size:15px}} .micro{{fill:#a6b6cf;font-size:13px}}
-.value{{font-size:44px;font-weight:700}}
-@keyframes hover{{50%{{transform:translateY(-5px)}}}}
-.bot{{animation:hover 3s ease-in-out infinite}}
-@media(prefers-reduced-motion:reduce){{.bot{{animation:none}}}}
+text{{font-family:ui-monospace,Menlo,monospace;fill:#23291e}}
+.label{{font-size:16px}} .micro{{fill:#4c5545;font-size:13px}}
+.value{{font-family:Georgia,serif;font-size:49px}}
 </style>
-<defs><linearGradient id="sky" x2="1" y2="1" gradientUnits="objectBoundingBox">
-<stop stop-color="#19213c"/><stop offset="1" stop-color="#101424"/></linearGradient></defs>
-<rect width="920" height="406" rx="22" fill="url(#sky)"/>
-<path d="M34 38h16m-8-8v16" stroke="#6eedd5" stroke-width="2"/>
-<text x="63" y="44" font-size="20" font-weight="600">Activity skyline</text>
+<rect width="920" height="406" fill="#f0eee2"/>
+<text x="34" y="43" font-size="18">Contribution record</text>
 <text x="884" y="43" text-anchor="end" class="micro">{today:%d %b %Y} UTC</text>
-<path d="M34 62h852 M34 179h852" stroke="#36415d"/>''']
+<path d="M34 61h850 M34 179h850" stroke="#454d40"/>''']
     for x, label, value in [(34, "Authored commits · all time", f"{total:,}"),
                             (316, f"Commits in {today.year}", f"{year_count:,}"),
                             (595, "Longest contribution streak", f"{streak} days")]:
@@ -114,21 +108,11 @@ text{{font-family:system-ui,-apple-system,sans-serif;fill:#f4f6ff}}
             if not first <= day <= today:
                 continue
             count = days.get(day, 0)
-            colors = ("#33445d","#26334b","#293950")
+            colors = ("#d5d5c6","#b8bcab","#aeb4a1")
             if count:
-                colors = ("#78efdc","#24999c","#36878f") if count < 8 else ("#b3a7ff","#7763d1","#6456ae")
+                colors = ("#bcdf8f","#6b8b59","#8da972") if count < 8 else ("#91d34f","#344e32","#577744")
             height = 2 + 12*math.log2(count+1)
             svg.append(tower(52+week*14+weekday*6, 327-week*1.5+weekday*5.8, min(height,92), colors))
-    svg.append('''<g transform="translate(107 220)">
-<ellipse cx="0" cy="36" rx="20" ry="4" fill="#111726"/>
-<g class="bot" stroke-linejoin="round">
-<path d="M-19 0l22-6 15 8-23 6z" fill="#dedaff"/>
-<path d="M-19 0l14 8v21l-14-9z" fill="#7263b4"/>
-<path d="M-5 8l23-6v20l-23 7z" fill="#afa1f7"/>
-<path d="M-2 11l16-4v9l-16 4z" fill="#172137"/>
-<path d="M2 13v3m8-5v3" stroke="#81ffdb" stroke-width="2.8"/>
-<path d="M0-3v-8" stroke="#b4aaff" stroke-width="2"/>
-<circle cy="-12" r="3" fill="#87f8d8"/></g></g>''')
     svg.append(f'<text x="34" y="384" class="micro">{first:%b %Y} – {today:%b %Y}</text>')
     svg.append('<text x="884" y="384" text-anchor="end" class="micro">One tower per day · Height shows contributions</text></svg>')
     return "\n".join(svg)+"\n", summary
